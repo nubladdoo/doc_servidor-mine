@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Nubladdoo Online</title>
+  <meta name="description" content="Projetos, materiais, aulas e conteúdos criados por Nubladdoo." />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google AdSense futuramente aqui -->
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="/" class="logo">Nubladdoo.<span>Online</span></a>
+
+      <div class="nav-links">
+        <a href="#projetos">Projetos</a>
+        <a href="#materiais">Materiais</a>
+        <a href="#comunidade">Comunidade</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <span class="tag">Conteúdo gratuito, direto e sem enrolação</span>
+
+        <h1>Projetos completos para aprender fazendo.</h1>
+
+        <p>
+          Aqui você encontra séries, materiais, arquivos, explicações e tudo que eu criar
+          para ajudar você a aprender de forma prática.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projetos" class="btn primary">Ver projetos</a>
+          <a href="#comunidade" class="btn secondary">Entrar na comunidade</a>
+        </div>
+      </div>
+
+      <aside class="ad-box">
+        <p class="ad-label">Apoie este projeto ❤️</p>
+
+        <div class="ad-placeholder">
+          Espaço para anúncio
+        </div>
+
+        <p class="ad-text">
+          Ao visualizar este anúncio, você me ajuda a continuar criando conteúdos gratuitos.
+          Obrigado de verdade ❤️
+        </p>
+      </aside>
+    </section>
+
+    <section id="projetos" class="section">
+      <div class="section-title">
+        <span>Projetos</span>
+        <h2>Escolha uma série para acompanhar</h2>
+        <p>
+          Cada projeto reúne vídeos, arquivos, PDFs, links úteis e materiais de apoio.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card featured">
+          <div class="project-icon">🎮</div>
+          <span class="project-status">Em andamento</span>
+
+          <h3>Minecraft do Zero</h3>
+
+          <p>
+            Uma série completa criando um servidor de Minecraft do absoluto zero,
+            desde a instalação até a configuração do último plugin.
+          </p>
+
+          <ul>
+            <li>Servidor Paper</li>
+            <li>Plugins</li>
+            <li>Configurações</li>
+            <li>Arquivos para download</li>
+          </ul>
+
+          <a href="projetos/minecraft.html" class="card-link">Acessar projeto</a>
+        </article>
+
+        <article class="project-card coming">
+          <div class="project-icon"></div>
+          <span class="project-status">Em breve</span>
+
+          <h3></h3>
+
+          <p>
+            
+          </p>
+
+          <a href="#" class="card-link disabled">Em breve</a>
+        </article>
+
+        <article class="project-card coming">
+          <div class="project-icon"></div>
+          <span class="project-status">Em breve</span>
+
+          <h3></h3>
+
+          <p>
+            
+          </p>
+
+          <a href="#" class="card-link disabled">Em breve</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="materiais" class="section soft">
+      <div class="section-title">
+        <span>Materiais</span>
+        <h2>Tudo organizado em um só lugar</h2>
+        <p>
+          Nada de link quebrado, encurtador chato ou 60 segundos esperando anúncio.
+          A ideia aqui é facilitar sua vida.
+        </p>
+      </div>
+
+      <div class="features">
+        <div class="feature">
+          <h3>📄 PDFs</h3>
+          <p>Materiais de apoio organizados por aula.</p>
+        </div>
+
+        <div class="feature">
+          <h3>📦 Arquivos</h3>
+          <p>Downloads diretos dos arquivos usados nos projetos.</p>
+        </div>
+
+        <div class="feature">
+          <h3>🎥 Vídeos</h3>
+          <p>Links para as aulas e séries completas.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="comunidade" class="community">
+      <h2>Entre na comunidade</h2>
+      <p>
+        Travou em alguma etapa? Quer mostrar seu projeto? A comunidade vai ser o lugar
+        para trocar ideia, tirar dúvidas e acompanhar os próximos conteúdos.
+      </p>
+
+      <a href="https://discord.gg/9QqcjNRvB5" target="_blank" class="btn primary">Discord</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Feito com carinho por Nubladdoo 🚀</p>
+    <p>Conteúdo gratuito, direto ao ponto e sem sofrimento.</p>
+  </footer>
+
+  <div id="cookieBanner" class="cookie-banner">
+
+<div>
+
+<strong>🍪 Cookies e privacidade</strong>
+
+<p>
+Utilizamos cookies para melhorar sua experiência e futuramente
+exibir conteúdos personalizados.
+
+Ao continuar navegando você concorda com nossa
+<a href="privacidade.html">
+Política de Privacidade
+</a>
+</p>
+
+</div>
+
+<button onclick="acceptCookies()">
+
+Entendi
+
+</button>
+
+</div>
+
+<script>
+
+if(localStorage.getItem("cookieAccepted")){
+
+document.getElementById("cookieBanner").style.display="none";
+
+}
+
+function acceptCookies(){
+
+localStorage.setItem("cookieAccepted","true");
+
+document.getElementById("cookieBanner").style.display="none";
+
+}
+
+</script>
+</body>
+</html>
